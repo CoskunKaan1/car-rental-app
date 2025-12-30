@@ -1,0 +1,193 @@
+/**************************************************
+ * Genel Stil Ayarları
+ **************************************************/
+
+/* Ana Pencere (QMainWindow) ve QWidget'lar */
+QMainWindow, QWidget {
+    background-color: #f0f4f8; /* Açık gri-mavi arka plan */
+    color: #333333;
+    font-family: "Segoe UI", "Arial", sans-serif;
+    font-size: 10pt;
+}
+
+/* Başlıklar ve Etiketler */
+QLabel {
+    color: #333333;
+    padding: 2px;
+}
+
+/* Kalın Başlık Etiketi (QTabWidget içindeki başlıklar) */
+QTabWidget QLabel {
+    font-size: 11pt;
+    font-weight: bold;
+}
+
+/**************************************************
+ * Sekme Widget'ı (QTabWidget) Stili
+ **************************************************/
+QTabWidget::pane {
+    border: 1px solid #c8d4e3;
+    background-color: #ffffff;
+    margin: 0px;
+    padding: 0px;
+}
+
+QTabBar::tab {
+    background: #e3f2fd;
+    border: 1px solid #c8d4e3;
+    border-bottom: none;
+    padding: 10px 15px;
+    margin-right: 2px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+QTabBar::tab:selected {
+    background: #ffffff;
+    border-color: #c8d4e3;
+    color: #0d47a1;
+    font-weight: bold;
+}
+
+QTabBar::tab:hover {
+    background: #c8e1ff;
+}
+
+/**************************************************
+ * Giriş Alanları (QLineEdit, QDateEdit, QComboBox)
+ **************************************************/
+
+QLineEdit, QDateEdit, QComboBox {
+    padding: 8px;
+    border: 1px solid #bbdefb;
+    border-radius: 4px;
+    background-color: #ffffff;
+    selection-background-color: #2196F3;
+    color: #333333; /* Yazı rengi */
+}
+
+QLineEdit:focus, QDateEdit:focus {
+    border: 1px solid #2196F3;
+}
+
+/**************************************************
+ * Butonlar (Ana Pencere İçin)
+ **************************************************/
+
+QPushButton {
+    padding: 8px 15px;
+    border-radius: 4px;
+    font-weight: bold;
+    color: white;
+    margin: 2px;
+    min-width: 80px;
+    border: none;
+}
+
+/* ID SEÇİCİLERİ (Main.py'de tanımlanan ID'ler) */
+QPushButton#btnEkle { background-color: #4CAF50; }    /* Yeşil */
+QPushButton#btnKirala { background-color: #2196F3; }  /* Mavi */
+QPushButton#btnIade { background-color: #FF9800; }    /* Turuncu */
+QPushButton#btnDuzenle { background-color: #9C27B0; } /* Mor */
+QPushButton#btnSil { background-color: #F44336; }     /* Kırmızı */
+
+QPushButton:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+/**************************************************
+ * Tablo Widget'ları (QTableWidget) Stili
+ **************************************************/
+
+QTableWidget {
+    border: 1px solid #c8d4e3;
+    gridline-color: #c8d4e3;
+    selection-background-color: #b3e5fc;
+    selection-color: #333333;
+    background-color: #ffffff;
+}
+
+QHeaderView::section {
+    background-color: #0d47a1;
+    color: white;
+    padding: 6px;
+    border: 1px solid #0d47a1;
+    font-weight: bold;
+}
+
+QHeaderView::section:horizontal {
+    border-top: none;
+}
+
+/**************************************************
+ * Gruplama ve Çerçeveler (QFrame) Stili
+ **************************************************/
+
+QFrame#form_group {
+    background-color: #e3f2fd;
+    border: 1px solid #bbdefb;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+QFrame { border-radius: 6px; }
+QFrame[frameShape="5"] { /* VLine */
+    background-color: #c8d4e3;
+    min-width: 1px; max-width: 1px;
+}
+
+/**************************************************
+ * CheckBox (Onay Kutusu)
+ **************************************************/
+QCheckBox { spacing: 5px; }
+QCheckBox::indicator {
+    width: 13px; height: 13px;
+    border: 1px solid #0d47a1;
+    border-radius: 3px;
+    background-color: #ffffff;
+}
+QCheckBox::indicator:checked {
+    background-color: #2196F3;
+    border: 1px solid #2196F3;
+}
+QCheckBox:hover { color: #0d47a1; }
+
+/**************************************************
+ * DİYALOG PENCERELERİ (POP-UP DÜZELTMESİ)
+ **************************************************/
+
+/* Genel Diyalog Yapısı */
+QDialog, QMessageBox, QInputDialog {
+    background-color: #ffffff;
+    border: 1px solid #bbdefb;
+}
+
+/* DİYALOG BUTONLARI İÇİN KRİTİK DÜZELTME */
+/* QDialog veya türevleri içindeki tüm butonlar */
+QDialog QPushButton {
+    background-color: #2196F3; /* Mavi Arka Plan */
+    color: white;              /* Beyaz Yazı */
+    border: 1px solid #1976D2;
+    min-width: 80px;
+}
+
+QDialog QPushButton:hover {
+    background-color: #1565C0; /* Hover: Koyu Mavi */
+}
+
+/* QMessageBox için özel stil */
+QMessageBox {
+    background-color: #f0f8ff; /* Hafif Mavi-Beyaz */
+    border: 1px solid #00ACC1;
+}
+
+/* Diyalog içindeki metinler ve girdiler */
+QDialog QLabel {
+    color: #333333;
+}
+
+QDialog QLineEdit {
+    border: 1px solid #2196F3;
+    color: #333333;
+    background-color: white;
+}

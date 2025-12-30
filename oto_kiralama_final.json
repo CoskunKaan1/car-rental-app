@@ -1,0 +1,201 @@
+{
+    "araclar": [
+        {
+            "plaka": "1234",
+            "marka": "a",
+            "model": "b",
+            "ucret": 12000.0,
+            "durum": "müsait",
+            "kiralayan": "-",
+            "baslangic": "-",
+            "planlanan_bitis": "-",
+            "alinan_odeme": 0
+        },
+        {
+            "plaka": "a",
+            "marka": "xc",
+            "model": "sa",
+            "ucret": 12.0,
+            "durum": "kirada",
+            "kiralayan": "fatih",
+            "baslangic": "2025-11-22",
+            "planlanan_bitis": "2025-11-28",
+            "alinan_odeme": 100.0,
+            "trafik_bitis": "2025-11-21",
+            "kasko_bitis": "2026-11-21",
+            "muayene_bitis": "2025-11-21"
+        },
+        {
+            "plaka": "a",
+            "marka": "d",
+            "model": "1",
+            "ucret": 2.0,
+            "durum": "müsait",
+            "kiralayan": "-",
+            "baslangic": "-",
+            "planlanan_bitis": "-",
+            "alinan_odeme": 0
+        },
+        {
+            "plaka": "123",
+            "marka": "aa",
+            "model": "d",
+            "ucret": 12.0,
+            "durum": "müsait",
+            "kiralayan": "-",
+            "baslangic": "-",
+            "planlanan_bitis": "-",
+            "alinan_odeme": 0
+        },
+        {
+            "plaka": "34AA1234",
+            "marka": "Toyota",
+            "model": "Corolla",
+            "ucret": 500.0,
+            "durum": "müsait",
+            "kiralayan": "-",
+            "baslangic": "-",
+            "planlanan_bitis": "-",
+            "alinan_odeme": 0
+        },
+        {
+            "plaka": "111",
+            "marka": "toyota",
+            "model": "corolla",
+            "ucret": 300.0,
+            "durum": "müsait",
+            "kiralayan": "-",
+            "baslangic": "-",
+            "planlanan_bitis": "-",
+            "alinan_odeme": 0
+        },
+        {
+            "plaka": "34ABC1234",
+            "marka": "honda",
+            "model": "civic",
+            "ucret": 1000.0,
+            "durum": "müsait",
+            "kiralayan": "-",
+            "baslangic": "-",
+            "planlanan_bitis": "-",
+            "alinan_odeme": 0,
+            "trafik_bitis": "2025-11-24",
+            "kasko_bitis": "2025-11-24",
+            "muayene_bitis": "2025-11-23"
+        }
+    ],
+    "gecmis_islemler": [
+        {
+            "tarih": "2025-11-20",
+            "plaka": "212",
+            "musteri": "aa",
+            "kullanilan_gun": 1,
+            "net_kazanc": 1.0
+        },
+        {
+            "tarih": "2025-11-20",
+            "plaka": "212",
+            "musteri": "111111112",
+            "kullanilan_gun": 1,
+            "net_kazanc": 1.0
+        },
+        {
+            "tarih": "2025-11-20",
+            "plaka": "212",
+            "musteri": "qqq",
+            "kullanilan_gun": 1,
+            "net_kazanc": 1.0
+        },
+        {
+            "tarih": "2025-11-22",
+            "plaka": "a",
+            "musteri": "Fatih",
+            "kullanilan_gun": 1,
+            "net_kazanc": 12.0
+        },
+        {
+            "tarih": "2025-11-22",
+            "plaka": "111",
+            "musteri": "derya",
+            "kullanilan_gun": 3,
+            "net_kazanc": 900.0
+        },
+        {
+            "tarih": "2025-11-22",
+            "plaka": "1234",
+            "musteri": "11",
+            "kullanilan_gun": 2,
+            "hasar_ucreti": 2500,
+            "hasar_detayi": "Sağ Ön Çamurluk (Boyalı)",
+            "net_kazanc": 26500.0
+        },
+        {
+            "tarih": "2025-11-22",
+            "plaka": "1234",
+            "musteri": "Kaan",
+            "kullanilan_gun": 1,
+            "hasar_ucreti": 6000,
+            "hasar_detayi": "Sağ Arka Kapı (Değişen) | Sol Ayna (Boyalı)",
+            "net_kazanc": 18000.0
+        },
+        {
+            "tarih": "2025-11-22",
+            "plaka": "1234",
+            "musteri": "Fatih",
+            "kullanilan_gun": 1,
+            "hasar_ucreti": 0.0,
+            "hasar_detayi": "",
+            "ceza_ucreti": 90.0,
+            "ceza_detayi": "HGS/OGS Geçişi () - 22.11.2026",
+            "net_kazanc": 12090.0
+        },
+        {
+            "tarih": "2025-11-22",
+            "plaka": "a",
+            "musteri": "Ataç",
+            "kullanilan_gun": 1,
+            "hasar_ucreti": 10000,
+            "hasar_detayi": "Ön Tampon (Boyalı) | Sol Ön Kapı (Boyalı) | Sağ Arka Çamurluk (Değişen)",
+            "ceza_ucreti": 1200.0,
+            "ceza_detayi": "HGS/OGS Geçişi (Avrasya Tüneli) - 22.11.2025",
+            "odeme_turu": "Çek",
+            "net_kazanc": 11212.0
+        },
+        {
+            "tarih": "2025-11-22",
+            "plaka": "1234",
+            "musteri": "a",
+            "kullanilan_gun": 1,
+            "hasar_ucreti": 14000,
+            "hasar_detayi": "Sağ Ön Çamurluk (Boyalı) | Sağ Arka Çamurluk (Değişen) | Motor Bloğu (Onarım) | Direksiyon Kutusu (Değişim)",
+            "ceza_ucreti": 10.0,
+            "ceza_detayi": "HGS/OGS Geçişi () - 22.11.2025",
+            "odeme_turu": "Kredi Kartı",
+            "net_kazanc": 26010.0
+        },
+        {
+            "tarih": "2025-11-24",
+            "plaka": "34AA1234",
+            "musteri": "kerem",
+            "kullanilan_gun": 1,
+            "hasar_ucreti": 7500,
+            "hasar_detayi": "Tavan (Değişen) | Sol Ön Çamurluk (Boyalı)",
+            "ceza_ucreti": 2000.0,
+            "ceza_detayi": "Hız Cezası (Radar) () - 24.11.2025",
+            "odeme_turu": "Çek",
+            "net_kazanc": 10000.0
+        }
+    ],
+    "kullanicilar": [
+        {
+            "kadi": "admin",
+            "sifre": "admin",
+            "rol": "yonetici"
+        },
+        {
+            "kadi": "personel",
+            "sifre": "1234",
+            "rol": "personel"
+        }
+    ]
+}
